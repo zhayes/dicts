@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "title": "distinctly(adv.)",
+      "descs": [
+        "14世纪晚期，“以明显的方式，不混淆或模糊地”，来自 distinct + -ly (2)。因此，“毫无疑问，显然”（1858）。",
+        "[D]istinctly, in the sense really quite, is the badge of the superior person indulgently recognizing unexpected merit in something that we are to understand is not quite worthy of his notice. [Fowler]",
+        "[D]istinctly，在 really quite 的意义上，是优秀的人认可某些我们应该理解为不太值得他注意的东西中意外的优点的标志。[Fowler]"
+      ],
+      "a_tag": ["distinct", "-ly"]
+    }
+  ],
+  "all_link_words": ["distinct(adj.)", "-ly(2)"],
+  "near_words": [
+    "distiller",
+    "distillery",
+    "distinct",
+    "distinction",
+    "distinctive",
+    "distingue",
+    "distinguish",
+    "distinguishable",
+    "distinguished",
+    "distort"
+  ],
+  "extend_words": [
+    "-ly",
+    "distinguish",
+    "distingue",
+    "distinction",
+    "distinctive",
+    "distillery",
+    "distinguished",
+    "distiller",
+    "distinguishable",
+    "distinct",
+    "distort"
+  ]
+}

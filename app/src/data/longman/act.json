@@ -1,0 +1,734 @@
+{
+  "word_family": [
+    "action",
+    "inaction",
+    "activity",
+    "inactivity",
+    "reaction",
+    "interaction",
+    "overacting",
+    "acting",
+    "active",
+    "inactive",
+    "act",
+    "overact",
+    "actively"
+  ],
+  "dicts": [
+    {
+      "word": "act",
+      "corpus_list": [
+        {
+          "corpus_title": "act",
+          "corpus_exas": [
+            "• a one-act play",
+            "• We condemn all acts of violence, no matter what the reason.",
+            "• Tony tries to be so macho, but it's just an act.",
+            "• Saving the boys from the river was an act of great courage.",
+            "• an act of Congress",
+            "• He was injured in a circus act that went wrong.",
+            "• I recently saw a circus act with contortionists folding themselves in amazing ways.",
+            "• We used to do a comedy act together.",
+            "• Kinison's outrageous comedy act",
+            "• a criminal act",
+            "• The festival will be an all-day event featuring a lot of different acts.",
+            "• One of his final acts was to take Britain's Nigel Mansell from Williams.",
+            "• When her act split up, he offered her a permanent studio within the premises where she could run her own classes.",
+            "• Part of his act involves dressing up as a woman.",
+            "• In Act 2, Ross and Diane get married.",
+            "• Naming and shaming remains an option should the company not clean up its act.",
+            "• Our next act is a young singer all the way from Dallas, Texas.",
+            "• The whole nation is very grateful for the numerous acts of kindness rendered in this time of crisis.",
+            "• Nicasio gave Cecilia poisoned water, believing she would reveal his perfidious acts.",
+            "• the Civil Rights Act",
+            "• The act of physically putting the drive in the computer is relatively easy.",
+            "• Some lawyers believed this act violated the establishment clause.",
+            "• The Wagner Act prohibited employers from firing workers for joining a union."
+          ],
+          "a": [
+            ["condemn", "condemn"],
+            ["violence", "violence"],
+            ["Tony", "tony"],
+            ["macho", "macho"],
+            ["courage", "courage"],
+            ["injured", "injure"],
+            ["circus", "circus"],
+            ["contortionists", "contortionist"],
+            ["folding", "fold"],
+            ["amazing", "amaze"],
+            ["comedy", "comedy"],
+            ["outrageous", "outrageous"],
+            ["criminal", "criminal"],
+            ["festival", "festival"],
+            ["split", "split"],
+            ["permanent", "permanent"],
+            ["studio", "studio"],
+            ["premises", "premise"],
+            ["shaming", "shame"],
+            ["option", "option"],
+            ["singer", "singer"],
+            ["Texas", "texas"],
+            ["nation", "nation"],
+            ["grateful", "grateful"],
+            ["numerous", "numerous"],
+            ["kindness", "kindness"],
+            ["rendered", "render"],
+            ["crisis", "crisis"],
+            ["poisoned", "poison"],
+            ["reveal", "reveal"],
+            ["perfidious", "perfidious"],
+            ["Civil", "civil"],
+            ["putting", "putt"],
+            ["lawyers", "lawyer"],
+            ["violated", "violate"],
+            ["establishment", "establishment"],
+            ["clause", "clause"],
+            ["prohibited", "prohibit"],
+            ["employers", "employer"],
+            ["union", "union"]
+          ]
+        },
+        {
+          "corpus_title": "act of (doing) something",
+          "corpus_exas": [
+            "• The photographs are an act of reclamation of a kind of urban territory that long ago stopped being landscape.",
+            "• It was an act of trust on their part, and it touched me.",
+            "• It is possible for such sentiments of approval of this past to coexist with abhorrence for most current acts of violence.",
+            "• Comfort may come also from acts of sympathy by unknown strangers: cards, signs, flowers upon the water.",
+            "• Today, we rarely think of the act of cooking as something sacred.",
+            "• I've cried a lot while lying on that couch and find that the act of crying is a cathartic release.",
+            "• These are obviously relevant to the act of speaking but could not themselves properly be regarded as components of speech."
+          ],
+          "a": [
+            ["photographs", "photograph"],
+            ["urban", "urban"],
+            ["territory", "territory"],
+            ["landscape", "landscape"],
+            ["trust", "trust"],
+            ["sentiments", "sentiment"],
+            ["approval", "approval"],
+            ["coexist", "coexist"],
+            ["abhorrence", "abhorrence"],
+            ["current", "current"],
+            ["Comfort", "comfort"],
+            ["sympathy", "sympathy"],
+            ["unknown", "unknown"],
+            ["strangers", "stranger"],
+            ["flowers", "flower"],
+            ["sacred", "sacred"],
+            ["cried", "cry"],
+            ["couch", "couch"],
+            ["cathartic", "cathartic"],
+            ["release", "release"],
+            ["relevant", "relevant"],
+            ["regarded", "regard"],
+            ["components", "component"],
+            ["speech", "speech"]
+          ]
+        },
+        {
+          "corpus_title": "put on an act",
+          "corpus_exas": [
+            "• Do not put on an act Whatever happens do not try to be some one you are not.",
+            "• But he was in no sense putting on an act.",
+            "• Now Constance began to put on an act.",
+            "• Fontana did not have to put on an act for long: Patrols and operations were daily.",
+            "• He was not prepared to put on an act, to don a tiger skin and go roaring about."
+          ],
+          "a": [
+            ["Patrols", "patrol"],
+            ["operations", "operation"],
+            ["daily", "daily"],
+            ["don", "don"],
+            ["tiger", "tiger"],
+            ["roaring", "roar"]
+          ]
+        }
+      ],
+      "PronCodes": " /ækt/",
+      "POS": " noun",
+      "word_audio": [
+        "https://www.ldoceonline.com/media/english/breProns/brelasdeact.mp3?version=1.2.72",
+        "https://www.ldoceonline.com/media/english/ameProns/l3act.mp3?version=1.2.72"
+      ],
+      "examples": [
+        {
+          "main_example_means": "action",
+          "is_countable": " [countable]",
+          "definition": " one thing that you do",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968101.mp3?version=1.2.72",
+              "content": "\n The new president’s first act should be to end the war."
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645592.mp3?version=1.2.72",
+              "content": "\n a thoughtless act"
+            },
+            {
+              "example_main_title": "act of (doing) something",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645595.mp3?version=1.2.72",
+                  "content": "\n an act of violence"
+                },
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645596.mp3?version=1.2.72",
+                  "content": "\n her many acts of kindness"
+                },
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645597.mp3?version=1.2.72",
+                  "content": "\n The act of writing a list can help to calm you down."
+                }
+              ]
+            },
+            {
+              "example_main_title": "in the act of doing something",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645601.mp3?version=1.2.72",
+                  "content": "\n Lindsay paused in the act of putting down the phone."
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "main_example_means": "law",
+          "is_countable": " [countable]",
+          "definition": " a law that has been officially accepted by Parliament or Congress",
+          "a": [
+            ["Parliament", "parliament"],
+            ["Congress", "congress"]
+          ],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968123.mp3?version=1.2.72",
+              "content": "\n the Housing and Community Development Act of 1977"
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968124.mp3?version=1.2.72",
+              "content": "\n an act of Parliament"
+            }
+          ]
+        },
+        {
+          "main_example_means": "pretending",
+          "is_countable": " [singular]",
+          "definition": " insincere behaviour in which you pretend to have a particular kind of feeling or to be a particular kind of person",
+          "a": [
+            ["insincere", "insincere"],
+            ["pretend", "pretend"]
+          ],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968131.mp3?version=1.2.72",
+              "content": "\n Mike played the loving husband in front of the children but it was all an act."
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645609.mp3?version=1.2.72",
+              "content": "\n Be natural. Don’t feel you have to put on an act."
+            },
+            {}
+          ]
+        },
+        {
+          "example_list": []
+        },
+        {
+          "main_example_means": "play",
+          "is_countable": " [countable]",
+          "definition": " one of the main parts into which a stage play, opera etc is divided",
+          "a": [["divided", "divide"]],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968159.mp3?version=1.2.72",
+              "content": "\n I arrived at the theatre late and missed the first act."
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968160.mp3?version=1.2.72",
+              "content": "\n the beginning of Act 3"
+            }
+          ]
+        },
+        {
+          "main_example_means": "performance",
+          "is_countable": " [countable]",
+          "definition": " a short performance on stage or television by someone who plays music or tells jokes",
+          "a": [["jokes", "joke"]],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001987666.mp3?version=1.2.72",
+              "content": "\n The argument was just part of their act."
+            }
+          ]
+        },
+        {
+          "main_example_means": "performer",
+          "is_countable": " [countable]",
+          "definition": " a performer or a group of performers who perform together",
+          "a": [
+            ["performer", "performer"],
+            ["perform", "perform"]
+          ],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968179.mp3?version=1.2.72",
+              "content": "\n The band is one of many acts that have been booked for the concert."
+            }
+          ]
+        },
+        {
+          "example_list": []
+        },
+        {
+          "example_list": []
+        },
+        {
+          "example_list": []
+        },
+        {
+          "example_list": []
+        },
+        {
+          "example_list": []
+        },
+        {
+          "example_list": []
+        }
+      ]
+    },
+    {
+      "word": "act",
+      "corpus_list": [
+        {
+          "corpus_title": "act",
+          "corpus_exas": [
+            "• a fast-acting decongestant",
+            "• That woman just can't act!",
+            "• The picture has a good script and is wonderfully acted.",
+            "• But it seemed to me that most of us were just acting.",
+            "• But there are many other ways in which we could act.",
+            "• Despite the crisis, the Commission seems unwilling to act.",
+            "• It takes a couple of minutes for the drug to act.",
+            "• As often as not, the government would then act against the loyalists to prevent the increase in tension.",
+            "• Bernard in the twelfth century: The river enters the abbey as much as the well acting as a check allows.",
+            "• It will no longer act as a spring but at least it will give the cabin a more solid base.",
+            "• Morgan Stanley will act as co-global coordinator.",
+            "• She acts as if she owns the place and we're her servants.",
+            "• Even in towns women did not normally act as traders.",
+            "• We must act before the situation gets out of control.",
+            "• Morganstern claims he was acting in self-defense.",
+            "• In recent years Lewis has been acting in television dramas.",
+            "• It is not the world we seem to experience and act in.",
+            "• He has been accused of acting like a dictator.",
+            "• I acted more out of compassion than anything else.",
+            "• The report says the officers acted professionally and responsibly.",
+            "• Larry was acting really weird.",
+            "• Congress must act soon on this vital legislation.",
+            "• You're acting stupid and I don't want to talk to you anymore.",
+            "• Critics accuse the company of acting too slowly in notifying residents of the chemical leak.",
+            "• Tina's been acting very strangely lately.",
+            "• He learned to act when he was in highschool."
+          ],
+          "a": [
+            ["decongestant", "decongestant"],
+            ["script", "script"],
+            ["Commission", "commission"],
+            ["tension", "tension"],
+            ["twelfth", "twelfth"],
+            ["century", "century"],
+            ["abbey", "abbey"],
+            ["spring", "spring"],
+            ["cabin", "cabin"],
+            ["solid", "solid"],
+            ["coordinator", "coordinator"],
+            ["servants", "servant"],
+            ["traders", "trader"],
+            ["dramas", "drama"],
+            ["accused", "accuse"],
+            ["dictator", "dictator"],
+            ["compassion", "compassion"],
+            ["weird", "weird"],
+            ["vital", "vital"],
+            ["legislation", "legislation"],
+            ["stupid", "stupid"],
+            ["Critics", "critic"],
+            ["notifying", "notify"],
+            ["chemical", "chemical"],
+            ["leak", "leak"]
+          ]
+        },
+        {
+          "corpus_title": "act to do something",
+          "corpus_exas": [
+            "• Property rights thus have a distributional implication - who compensates whom - but also act to achieve the socially efficient allocation.",
+            "• Meanwhile, government ministers faced calls for their resignation, and Yeltsin acted to ban the more blatant manifestations of opposition activity.",
+            "• It wasn't like him, it was out of character, but she wasn't acting to character either.",
+            "• Congress recently acted to deny trade preferences to countries that fail to meet their legal obligations to end such abusive child labor.",
+            "• The systematic activation of prior knowledge can act to prepare for and deepen the likely response to a text.",
+            "• The statute requires, however, not a threat of immediate danger, but rather an immediate need to act to protect.",
+            "• Crowe brings much more than acting to the role."
+          ],
+          "a": [
+            ["implication", "implication"],
+            ["compensates", "compensate"],
+            ["efficient", "efficient"],
+            ["allocation", "allocation"],
+            ["ministers", "minister"],
+            ["resignation", "resignation"],
+            ["ban", "ban"],
+            ["blatant", "blatant"],
+            ["manifestations", "manifestation"],
+            ["opposition", "opposition"],
+            ["deny", "deny"],
+            ["preferences", "preference"],
+            ["obligations", "obligation"],
+            ["abusive", "abusive"],
+            ["labor", "labor"],
+            ["systematic", "systematic"],
+            ["prior", "prior"],
+            ["knowledge", "knowledge"],
+            ["deepen", "deepen"],
+            ["response", "response"],
+            ["text", "text"],
+            ["statute", "statute"],
+            ["threat", "threat"],
+            ["immediate", "immediate"],
+            ["danger", "danger"]
+          ]
+        },
+        {
+          "corpus_title": "act as if",
+          "corpus_exas": [
+            "• A boxing instructor may teach his pupil to strike him in a given way by acting as if hurt.",
+            "• I was not ready to act as if I were dead already.",
+            "• And I could act as if running a new household was an ambition f could concentrate on and fall in love with.",
+            "• She acted as if she were an enfranchised male.",
+            "• He does not, but his genes act as if they do.",
+            "• They acted as if they knew what would happen if they lost, and they were scared to death of it.",
+            "• When practice starts up again after the weekend, Jody acts as if Vanderbilt never happened."
+          ],
+          "a": [
+            ["instructor", "instructor"],
+            ["pupil", "pupil"],
+            ["hurt", "hurt"],
+            ["household", "household"],
+            ["ambition", "ambition"],
+            ["f", "f"],
+            ["concentrate", "concentrate"],
+            ["enfranchised", "enfranchise"],
+            ["male", "male"],
+            ["genes", "gene"],
+            ["scared", "scare"],
+            ["weekend", "weekend"]
+          ]
+        },
+        {
+          "corpus_title": "act a part/role",
+          "corpus_exas": [
+            "• Available for singing, dancing, acting roles.",
+            "• Hannah Benn knew that she would have to spend her evening acting a part.",
+            "• These were his friends but he felt unnatural in their company, as if he were acting a part.",
+            "• She couldn't be completely spurious; no-one could act a part like that."
+          ],
+          "a": [
+            ["singing", "sing"],
+            ["unnatural", "unnatural"],
+            ["spurious", "spurious"]
+          ]
+        },
+        {
+          "corpus_title": "act a part/role",
+          "corpus_exas": [
+            "• Available for singing, dancing, acting roles.",
+            "• Hannah Benn knew that she would have to spend her evening acting a part.",
+            "• These were his friends but he felt unnatural in their company, as if he were acting a part.",
+            "• She couldn't be completely spurious; no-one could act a part like that."
+          ],
+          "a": []
+        },
+        {
+          "corpus_title": "act as",
+          "corpus_exas": ["• The sugar in the fruit acts as a preservative."],
+          "a": [
+            ["sugar", "sugar"],
+            ["fruit", "fruit"],
+            ["preservative", "preservative"]
+          ]
+        }
+      ],
+      "POS": " verb",
+      "word_audio": [
+        "https://www.ldoceonline.com/media/english/breProns/brelasdeact.mp3?version=1.2.72",
+        "https://www.ldoceonline.com/media/english/ameProns/l3act2.mp3?version=1.2.72"
+      ],
+      "examples": [
+        {
+          "main_example_means": "do something",
+          "is_countable": " [intransitive]",
+          "definition": " to do something in a particular way or for a particular reason",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968221.mp3?version=1.2.72",
+              "content": "\n The company acted correctly in sacking him."
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645635.mp3?version=1.2.72",
+              "content": "\n The jury decided that Walker had acted in self-defence."
+            },
+            {
+              "example_main_title": "act to do something",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645638.mp3?version=1.2.72",
+                  "content": "\n The UN must act now to restore democracy."
+                }
+              ]
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968220.mp3?version=1.2.72",
+              "content": "\n Politicians will only act when enough people demand that they do something."
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "main_example_means": "behave",
+          "is_countable": " [intransitive always + adverb/preposition]",
+          "definition": " to behave in a particular way",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645641.mp3?version=1.2.72",
+              "content": "\n They acted unreasonably when they turned down Jill’s application."
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645642.mp3?version=1.2.72",
+              "content": "\n He’s been acting strangely ever since his mom died."
+            },
+            {
+              "example_main_title": "act as if",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645645.mp3?version=1.2.72",
+                  "content": "\n Pip acted as if he was better than everyone else."
+                }
+              ]
+            },
+            {
+              "example_main_title": "act like",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645648.mp3?version=1.2.72",
+                  "content": "\n Stop acting like a baby."
+                }
+              ]
+            },
+            {
+              "example_main_title": "act with",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645651.mp3?version=1.2.72",
+                  "content": "\n She acted with dignity."
+                }
+              ]
+            },
+            {
+              "example_main_title": "act your age",
+              "exp_item": []
+            }
+          ]
+        },
+        {
+          "main_example_means": "pretend",
+          "is_countable": " [intransitive, transitive]",
+          "definition": " to pretend to have feelings, qualities etc that are different from your true ones",
+          "a": [["feelings", "feeling"]],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645654.mp3?version=1.2.72",
+              "content": "\n When he’s angry, he acts the fool."
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645655.mp3?version=1.2.72",
+              "content": "\n That guy is acting crazy."
+            },
+            {
+              "example_main_title": "act a part/role",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645658.mp3?version=1.2.72",
+                  "content": "\n Stella felt unnatural in their company, as if she was acting a part."
+                }
+              ]
+            },
+            {
+              "example_main_title": "act as if/like",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645661.mp3?version=1.2.72",
+                  "content": "\n Why does he act as if he was stupid?"
+                }
+              ]
+            },
+            {},
+            {}
+          ]
+        },
+        {
+          "main_example_means": "play/film",
+          "is_countable": " [intransitive, transitive]",
+          "definition": " to perform in a play or film",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968293.mp3?version=1.2.72",
+              "content": "\n I first started acting when I was 12 years old."
+            },
+            {
+              "example_main_title": "act a part/role",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968296.mp3?version=1.2.72",
+                  "content": "\n She is acting the role of Lady Macbeth six evenings a week."
+                }
+              ]
+            },
+            {
+              "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001645663.mp3?version=1.2.72",
+              "content": "\n The movie is very well acted."
+            }
+          ]
+        },
+        {
+          "main_example_means": "have an effect",
+          "is_countable": " [intransitive]",
+          "definition": " to have an effect or use",
+          "a": [],
+          "example_list": [
+            {
+              "example_main_title": "act as",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968263.mp3?version=1.2.72",
+                  "content": "\n The padding acts as a cushion if the player falls or is hit by the ball."
+                }
+              ]
+            },
+            {
+              "example_main_title": "act on",
+              "exp_item": [
+                {
+                  "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000968266.mp3?version=1.2.72",
+                  "content": "\n Disinfectants act on bacteria in two main ways."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "example_list": []
+        }
+      ]
+    },
+    {
+      "word": "ACT",
+      "PronCodes": " /ˌeɪ siː ˈtiː/",
+      "word_audio": [
+        "https://www.ldoceonline.com/media/english/breProns/ld5_act_the.mp3?version=1.2.72",
+        "https://www.ldoceonline.com/media/english/ameProns/p028-000001271.mp3?version=1.2.72"
+      ],
+      "examples": [
+        {
+          "example_list": []
+        },
+        {
+          "example_list": []
+        }
+      ]
+    },
+    {
+      "word": null,
+      "examples": [
+        {
+          "definition": "a law that has been officially accepted by the governing body of a country",
+          "a": [["governing", "govern"]],
+          "example_list": [
+            {
+              "audio_src": null,
+              "content": "an act to regulate the carrying on of investment business"
+            },
+            {
+              "audio_src": null,
+              "content": "the Homeland Security Act of 2002"
+            },
+            {}
+          ]
+        },
+        {
+          "definition": "a written agreement that has legal force",
+          "a": [["agreement", "agreement"]],
+          "example_list": []
+        }
+      ]
+    },
+    {
+      "word": null,
+      "examples": [
+        {
+          "definition": " to do a particular job or have a particular role",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": null,
+              "content": "We will act as the company’s agent for the sale."
+            },
+            {
+              "audio_src": null,
+              "content": "Mortgage brokers act as middlemen between borrowers and lenders."
+            }
+          ]
+        },
+        {
+          "definition": " if a lawyer acts for someone, he or she represents them in a legal case",
+          "a": [["represents", "represent"]],
+          "example_list": [
+            {
+              "audio_src": null,
+              "content": "the lawyer acting for the insurance company"
+            }
+          ]
+        },
+        {
+          "definition": " to represent someone",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": null,
+              "content": "The two parties may agree a price for the land or ask an agent to act on their behalf."
+            }
+          ]
+        },
+        {
+          "definition": " to take action as a result of something that has been said, written, suggested etc",
+          "a": [],
+          "example_list": [
+            {
+              "audio_src": null,
+              "content": "Congress is eager to act on the report."
+            },
+            {
+              "audio_src": null,
+              "content": "The administration hasn’t yet acted on the request."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

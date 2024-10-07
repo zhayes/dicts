@@ -1,0 +1,43 @@
+{
+  "results": [
+    {
+      "title": "abnormal(adj.)",
+      "descs": [
+        "“不符合规则或遵从规则，偏离类型或标准，违反系统或法律，不规则，不自然”，1835年，是对 anormal（参见）的改造，受拉丁语 abnormalis “偏离固定规则，不规则”的影响，来自 ab “离开，远离”（见 ab-）+ norma “规则”（见 norm）。",
+        "旧形式来自法语 anormal（13世纪），源自中世纪拉丁语 anormalus，是希腊语 anomalos “不平坦，不规则”的改编（通过与 norma 相关联），来自 an- “不”（见 an-（1））+ homalos “平坦的”，来自 homos “相同”（源自 PIE 词根 *sem-（1）“一个； 作为一个，与一起”）。比较 anomaly。“很少有词语显示出如此一系列的伪词源扭曲”[Weekley]。另一个形容词是 abnormous（1742）“不规则的，畸形的”，来自拉丁语 abnormis。相关： Abnormally。"
+      ],
+      "a_tag": ["anormal", "ab-", "norm", "an-", "*sem-", "anomaly"]
+    }
+  ],
+  "all_link_words": ["anomaly(n.)", "anormal(adj.)"],
+  "near_words": [
+    "ABM",
+    "Abnaki",
+    "abnegate",
+    "abnegation",
+    "Abner",
+    "abnormality",
+    "aboard",
+    "abode",
+    "aboil",
+    "abolish"
+  ],
+  "extend_words": [
+    "Abner",
+    "anormal",
+    "abolish",
+    "abnormality",
+    "ab-",
+    "ABM",
+    "Abnaki",
+    "abnegate",
+    "aboard",
+    "norm",
+    "abnegation",
+    "abode",
+    "anomaly",
+    "aboil",
+    "an-",
+    "*sem-"
+  ]
+}

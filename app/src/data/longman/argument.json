@@ -1,0 +1,305 @@
+[
+  {
+    "word": "ar‧gu‧ment",
+    "corpus_list": [
+      {
+        "corpus_title": "argument",
+        "corpus_exas": [
+          "• I'm sorry I'm not in a good mood. I had an argument with my husband this morning.",
+          "• Phil got into an argument with a guy at the bar.",
+          "• Testimony ended Wednesday afternoon, and attorneys are to give closing arguments Thursday.",
+          "• Rose presented a good argument.",
+          "• This provides an important argument for the lead causes-hyperactivity hypothesis.",
+          "• The main argument against smoking is that it's bad for your health.",
+          "• Learn to study footnotes for further information and as clues to the scholarship and plausibility of the historian's arguments.",
+          "• We can regard the statistical argument about numbers of planets as an argument of last resort.",
+          "• My sister and I had a terrible argument last night.",
+          "• In his mind Cameron continued the argument throughout the meal.",
+          "• It is not clear how much of the argument is really about policy, and how much about personality.",
+          "• Do you agree with the argument that violence on TV makes people behave violently?",
+          "• Just stick to your argument that the dealer said you'd make a certain profit."
+        ],
+        "a": [
+          ["sorry", "sorry"],
+          ["mood", "mood"],
+          ["husband", "husband"],
+          ["guy", "guy"],
+          ["bar", "bar"],
+          ["Testimony", "testimony"],
+          ["Wednesday", "wednesday"],
+          ["afternoon", "afternoon"],
+          ["attorneys", "attorney"],
+          ["Thursday", "thursday"],
+          ["presented", "present"],
+          ["hypothesis", "hypothesis"],
+          ["main", "main"],
+          ["smoking", "smoke"],
+          ["health", "health"],
+          ["footnotes", "footnote"],
+          ["further", "further#further__10"],
+          ["clues", "clue"],
+          ["scholarship", "scholarship"],
+          ["regard", "regard"],
+          ["statistical", "statistical"],
+          ["planets", "planet"],
+          ["resort", "resort"],
+          ["sister", "sister"],
+          ["terrible", "terrible"],
+          ["meal", "meal"],
+          ["policy", "policy"],
+          ["personality", "personality"],
+          ["agree", "agree"],
+          ["violence", "violence"],
+          ["TV", "tv"],
+          ["behave", "behave"],
+          ["stick", "stick"],
+          ["certain", "certain"],
+          ["profit", "profit"]
+        ]
+      },
+      {
+        "corpus_title": "argument about/over",
+        "corpus_exas": [
+          "• As usual the Benn women were having an argument over the breakfast table.",
+          "• Social interaction involving dialogue and argument over ideas, by its very nature, is an important source of disequilibrium.",
+          "• There is room for argument about precise figures, none about the general thrust of Sir Hector's briefing.",
+          "• The anti-conspiratorial rhetoric of the Vanguard argument has its place in the general National Front argument about tactics.",
+          "• The economist does not enter into the dubious moral arguments about the importance or virtue of the wants to be satisfied.",
+          "• Then there is the argument about availability.",
+          "• I Pressed home the usual arguments about duty and not fighting the war for the privilege of going to the cinema.",
+          "• Mary Mara makes the volatile Ruth a mainspring of precarious tension, capable of a solitary three-way argument over a peanut-butter sandwich."
+        ],
+        "a": [
+          ["usual", "usual"],
+          ["breakfast", "breakfast"],
+          ["table", "table"],
+          ["interaction", "interaction"],
+          ["dialogue", "dialogue"],
+          ["nature", "nature"],
+          ["source", "source"],
+          ["disequilibrium", "disequilibrium"],
+          ["precise", "precise"],
+          ["figures", "figure"],
+          ["general", "general"],
+          ["thrust", "thrust"],
+          ["Sir", "sir"],
+          ["briefing", "brief"],
+          ["rhetoric", "rhetoric"],
+          ["Vanguard", "vanguard"],
+          ["National", "national"],
+          ["tactics", "tactic"],
+          ["economist", "economist"],
+          ["enter", "enter"],
+          ["dubious", "dubious"],
+          ["moral", "moral"],
+          ["importance", "importance"],
+          ["virtue", "virtue"],
+          ["satisfied", "satisfy"],
+          ["availability", "availability"],
+          ["Pressed", "press"],
+          ["duty", "duty"],
+          ["privilege", "privilege"],
+          ["cinema", "cinema"],
+          ["volatile", "volatile"],
+          ["mainspring", "mainspring"],
+          ["precarious", "precarious"],
+          ["tension", "tension"],
+          ["capable", "capable"],
+          ["solitary", "solitary"],
+          ["sandwich", "sandwich"]
+        ]
+      },
+      {
+        "corpus_title": "argument that",
+        "corpus_exas": [
+          "• The Defendants counter argument that this infrastructure information did not constitute a record either was not allowed by the Court.",
+          "• She offered the familiar argument that a strong domestic steel industry is needed for national defense.",
+          "• It is too clear for argument that the change in phraseology was adopted understandingly and with a purpose.",
+          "• This is the kind of argument that Clinton loves; it sets him on the middle ground.",
+          "• This weakens the splitters' argument that to reconstitute high-level meaning from the basic ingredients requires only the right recipe.",
+          "• Incidentally, the argument that dinosaurs would have needed to keep their brains cool neither proves nor disproves endothermy.",
+          "• We begin with the argument that the evidence for a Deity might be so strong as to undermine faith.",
+          "• The argument that fixed costs are incompatible with scale economies is as follows.",
+          "• No serious thinker can make a valid argument that to discriminate based on species is acceptable."
+        ],
+        "a": [
+          ["Defendants", "defendant"],
+          ["counter", "counter"],
+          ["infrastructure", "infrastructure"],
+          ["constitute", "constitute"],
+          ["familiar", "familiar"],
+          ["domestic", "domestic"],
+          ["steel", "steel"],
+          ["industry", "industry"],
+          ["defense", "defense"],
+          ["phraseology", "phraseology"],
+          ["adopted", "adopt"],
+          ["purpose", "purpose"],
+          ["middle", "middle"],
+          ["weakens", "weaken"],
+          ["reconstitute", "reconstitute"],
+          ["high-level", "high-level"],
+          ["basic", "basic"],
+          ["ingredients", "ingredient"],
+          ["requires", "require"],
+          ["recipe", "recipe"],
+          ["dinosaurs", "dinosaur"],
+          ["brains", "brain"],
+          ["cool", "cool"],
+          ["proves", "prove"],
+          ["disproves", "disprove"],
+          ["evidence", "evidence"],
+          ["Deity", "deity"],
+          ["undermine", "undermine"],
+          ["faith", "faith"],
+          ["fixed", "fix"],
+          ["incompatible", "incompatible"],
+          ["scale", "scale"],
+          ["economies", "economy"],
+          ["thinker", "thinker"],
+          ["valid", "valid"],
+          ["discriminate", "discriminate"],
+          ["based", "base"],
+          ["species", "species"],
+          ["acceptable", "acceptable"]
+        ]
+      },
+      {
+        "corpus_title": "for the sake of argument",
+        "corpus_exas": [
+          "• Let us assume for the sake of argument that Inevitable is correct.",
+          "• Let us assume for the sake of argument that you are not Joan Crawford.",
+          "• I'm not sure that's an accurate description, but for the sake of argument I'll accept it.",
+          "• Let's just say, for the sake of argument, that you've got $5000 to invest.",
+          "• Let's say for the sake of argument it was the scullery window.",
+          "• This already poses problems, but let us say, for the sake of argument, that it is equivalent to place.",
+          "• Let us say for the sake of argument that it is five different partners on the same night.",
+          "• Suppose, for the sake of argument, man, the true perpetrators of this crime are our enemies."
+        ],
+        "a": [
+          ["assume", "assume"],
+          ["Inevitable", "inevitable"],
+          ["correct", "correct"],
+          ["sure", "sure"],
+          ["accurate", "accurate"],
+          ["description", "description"],
+          ["accept", "accept"],
+          ["invest", "invest"],
+          ["scullery", "scullery"],
+          ["window", "window"],
+          ["poses", "pose"],
+          ["equivalent", "equivalent"],
+          ["partners", "partner"],
+          ["Suppose", "suppose"],
+          ["perpetrators", "perpetrator"],
+          ["crime", "crime"],
+          ["enemies", "enemy"]
+        ]
+      }
+    ],
+    "PronCodes": " /ˈɑːɡjəmənt $ ˈɑːr-/",
+    "POS": " noun",
+    "word_audio": [
+      "https://www.ldoceonline.com/media/english/breProns/argument0205.mp3?version=1.2.72",
+      "https://www.ldoceonline.com/media/english/ameProns/argument.mp3?version=1.2.72"
+    ],
+    "examples": [
+      {
+        "is_countable": "[countable]",
+        "definition": " a situation in which two or more people disagree, often angrily",
+        "a": [["disagree", "disagree"]],
+        "example_list": [
+          {
+            "example_main_title": "argument with",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/ldoce5_exa000094.mp3?version=1.2.72",
+                "content": "\n She had a big argument with her husband."
+              }
+            ]
+          },
+          {
+            "example_main_title": "argument about/over",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/ldoce5_exa000095.mp3?version=1.2.72",
+                "content": "\n There have been a lot of arguments about who was responsible for the accident."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "is_countable": "[countable]",
+        "definition": " a set of reasons that show that something is true or untrue, right or wrong etc",
+        "a": [
+          ["untrue", "untrue"],
+          ["wrong", "wrong"]
+        ],
+        "example_list": [
+          {
+            "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001676477.mp3?version=1.2.72",
+            "content": "\n We need to provide a convincing argument as to why the system should be changed."
+          },
+          {
+            "example_main_title": "argument for/against",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000948692.mp3?version=1.2.72",
+                "content": "\n a powerful argument against smoking"
+              },
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000948692.mp3?version=1.2.72",
+                "content": "\n A good argument can be made for comparing the IT revolution with the invention of writing itself."
+              }
+            ]
+          },
+          {
+            "example_main_title": "argument in favour of",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-001676487.mp3?version=1.2.72",
+                "content": "\n  the arguments in favour of banning tobacco advertising"
+              }
+            ]
+          },
+          {
+            "example_main_title": "argument that",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000948695.mp3?version=1.2.72",
+                "content": "\n the familiar argument that the costs outweigh the benefits"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "is_countable": "[uncountable]",
+        "definition": " when you disagree with something or question whether it is right",
+        "a": [],
+        "example_list": [
+          {
+            "example_main_title": "do something without (further) argument",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000948702.mp3?version=1.2.72",
+                "content": "\n Ian accepted the suggestion without argument."
+              }
+            ]
+          },
+          {
+            "example_main_title": "for the sake of argument",
+            "exp_item": [
+              {
+                "audio_src": "https://www.ldoceonline.com/media/english/exaProns/p008-000948706.mp3?version=1.2.72",
+                "content": "\n If, for the sake of argument, you aren’t offered the job, what will you do?"
+              }
+            ]
+          },
+          {}
+        ]
+      }
+    ]
+  }
+]
