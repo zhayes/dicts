@@ -33,9 +33,9 @@ export default (props: ComponentProps<any>):JSX.Element => {
 
   createEffect(() => {
     const params = useParams();
-    const word = decodeURIComponent(params.word)
+    const word = decodeURIComponent(params.word || '')
 
-    if (!word.trim()) return;
+    if (!word?.trim?.()) return;
 
     get_vocabulary(word.trim().split(" ").join("-")).then(async ({ data }) => {
 

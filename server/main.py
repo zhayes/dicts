@@ -171,6 +171,15 @@ def search_voabulary(word: str, db: Session = Depends(get_db)):
     return {"data": items}
 
 
+
+#搜索存在词汇
+@app.post("/api/dictionary/search/{word}")
+def search_dicts(word: str, db: Session = Depends(get_db)):
+    items = db.query(models.Vocabulary).filter(models.Vocabulary.word.ilike(f"%{word}%")).limit(10).all()
+
+    return {"data": [{"name": item.word} for item in items ]}
+
+
 #远程更新词汇
 class DictData(BaseModel):
     word: str

@@ -24,3 +24,8 @@ export const get_vocabulary = (word:string) => {
 export const update_vocabulary = (word:string) => {
   return alovaInstance.Post<Response>(`/api/update/dictionary/${word}`).then((res) => res.json())
 }
+
+``
+export const search_vocabulary = (word:string) => {
+  return alovaInstance.Post<Response>(`/api/dictionary/search/${word}`).then((res) => res.json())
+}

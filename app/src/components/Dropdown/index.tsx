@@ -46,7 +46,8 @@ const Dropdown: Component<{
           props.options?.map?.((item, i) => {
             return <div class={`text-xl text-black px-5 ${selectedWordIndex()===i ? 'text-red-500':null} hover:text-red-500 leading-10 cursor-pointer ${!item.type ? 'text-blue-600' : null}`}
               onClick={() => {
-                navigate(`${location.href.includes('/dictionary/') ? '/dictionary/' : '/word/'}${item.name}`)
+                const is_dict = location.pathname.split("/")[1]
+                navigate(`${is_dict==='dictionary' ? '/dictionary/' : '/word/'}${item.name}`)
                 props.onChange?.(item.name)
               }}
             >

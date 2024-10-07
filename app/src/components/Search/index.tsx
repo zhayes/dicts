@@ -1,7 +1,7 @@
 import { type Component, createSignal, createEffect } from "solid-js";
 import { useParams, useNavigate } from '@solidjs/router'
 import Dropdown from "@/components/Dropdown";
-import { search_word } from '@/api';
+import { search_word, search_vocabulary } from '@/api';
 import { debounce } from '@/utils/radash';
 import usePressKeyboard, { KEYBOARD } from "@/utils/usePressKeyboard";
 
@@ -65,7 +65,10 @@ const Search: Component<any> = () => {
 
   //搜索下拉
   const searchHandle = (v:string) => {
-    search_word(v).then(({ data }) => {
+    if (!v.trim()) return;
+    const fetch_data = window.location.pathname.split("/")[1] === "dictionary" ? search_vocabulary : search_word;
+
+    fetch_data(v.trim()).then(({ data }) => {
       const remoate_names = data.map((item: any) => item.name);
       const index = remoate_names.indexOf(v);
       if (index != -1) {
@@ -126,7 +129,8 @@ const Search: Component<any> = () => {
 
           if ((e.which || e.keyCode) === 13) {
             const value = target.value?.trim?.();
-            navigator(`${location.href.includes('/dictionary/') ? '/dictionary/' : '/word/'}${encodeURIComponent(value)}`)
+            const is_dict = location.pathname.split("/")[1]
+            navigator(`${is_dict==='dictionary'? '/dictionary/' : '/word/'}${encodeURIComponent(value)}`)
 
             inputRef?.blur?.();
           }
