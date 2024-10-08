@@ -49,7 +49,7 @@ const Vocabular: Component<{
               }
 
               <span class="text-green-500">{ item.is_countable }</span>
-              <span class="font-semibold" use:aTags={{ style: 'baseline', url_map, targets: item?.a?.map(([w_1, w_2]:string[]) => w_1)}}>{ item.definition }</span>
+              <span class="text-lg font-extrabold" use:aTags={{ style: 'baseline', url_map, targets: item?.a?.map(([w_1, w_2]:string[]) => w_1)}}>{ item.definition }</span>
             </div>
             {
               item.example_list.map((item:any) => {
