@@ -14,6 +14,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse
 from analyze_word import analyze_word
 from analyze_longman import analyze_longman_page, longman_headers
+from youdao import translate
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -230,3 +231,14 @@ async def update_dictonary(word: str, db: Session = Depends(get_db)):
                 "message": "内部错误",
                 "data": e
             }
+
+
+
+
+#搜索存在词汇
+@app.post("/api/translate/{word}")
+async def youdao_translate(word: str):
+
+    result = translate(word)
+
+    return {"data": result}
