@@ -6,7 +6,8 @@ declare module "solid-js" {
     interface Directives {
       aTags: {
         url_map: Record<string, string>,
-        targets: string[]
+        targets: string[],
+        style?: string
       }
     }
   }

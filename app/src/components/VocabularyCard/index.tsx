@@ -44,7 +44,7 @@ const Vocabular: Component<{
             <div class="mb-3 text-lg">
               {
                 item.main_example_means ?
-                <button class='px-2 py-1 leading-3 border border-black border-b-2 border-l-2 border-b-red-500 border-l-red-500 bg-black text-white rounded text-sm mr-2 font-semibold italic'>{ item.main_example_means }</button>
+                <button class='px-2 py-1 leading-3 border border-black border-b-4 border-b-black bg-gray-600 text-white rounded text-lg mr-2 font-semibold'>{ item.main_example_means }</button>
                 : null
               }
 

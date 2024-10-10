@@ -1,7 +1,7 @@
 import {translate} from '@/api'
 
 
-function getSelectedDOM(): Node | null {
+const getSelectedDOM =  ():Node | null=> {
     const selection = window.getSelection();
     if (selection && selection.rangeCount > 0) {
         return selection.getRangeAt(0).endContainer;
@@ -10,34 +10,59 @@ function getSelectedDOM(): Node | null {
 }
 
 
+const findFirstLevelDom = (nodes:NodeList, node:Node) => {
+  return Array.from(nodes).filter((item) => {
+    return node === item;
+  })[0]
+}
+
+const getParentBlockDom = (dom:Node):Element => {
+  if (
+    dom.parentNode?.nodeType===1&&
+    findFirstLevelDom(dom.parentNode?.childNodes!, dom)
+  ) {
+    const display = window.getComputedStyle(dom.parentNode as Element).display;
+    if (display === 'block' || display === 'flex') {
+      return dom.parentElement!;
+    }
+  }
+
+  return getParentBlockDom(dom.parentNode as Node);
+}
+
+
 export const setup_translate = () => {
-  let src_el:any = null;
+    let src_el:any = null;
     document.addEventListener('mousedown', (e:MouseEvent) => {
       src_el = null;
-      if (e?.srcElement?.tagName === "INPUT") {
-        src_el = e?.srcElement
+      const element = e.target as Element;
+      if (element.tagName === "INPUT") {
+        src_el = element
       };
     })
 
     document.addEventListener('mouseup', async (e:MouseEvent) => {
-      if (src_el?.tagName === "INPUT") return;
+      if (src_el) return;
 
       const selection = window.getSelection();
       const selected_str = selection?.toString().trim();
       if(selected_str){
-          const {data} = await translate(selected_str)
           const dom = getSelectedDOM();
-
           if(!dom) return;
+          const parent_dom = getParentBlockDom(dom);
 
-          const old_dom = dom?.parentElement?.querySelector('[data-dy-translate="true"]');
-          old_dom && dom?.parentElement?.removeChild(old_dom!)
+          const old_dom = parent_dom.querySelector('[data-dy-translate="true"]');
+          old_dom && parent_dom.removeChild(old_dom!)
 
-          const node = document.createTextNode(data ? data+' [仅供参考]' : '[翻译出错了,请输入完整句子]')
-          const div = document.createElement("div")
-          div.setAttribute("data-dy-translate", "true")
-          div.appendChild(node)
-          dom?.parentElement?.appendChild(div)
+          const {data} = await translate(selected_str)
+
+          const new_div = document.createElement("div")
+          new_div.setAttribute("data-dy-translate", "true")
+          parent_dom.appendChild(new_div)
+
+          const node = document.createTextNode(data ? data+' [仅供参考]' : '[翻译出错了,请选择完整句子]')
+
+          new_div.appendChild(node)
       }
     });
 
