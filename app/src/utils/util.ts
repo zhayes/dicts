@@ -60,7 +60,7 @@ export const setup_translate = () => {
           new_div.setAttribute("data-dy-translate", "true")
           parent_dom.appendChild(new_div)
 
-          const node = document.createTextNode(data ? data+' [仅供参考]' : '[翻译出错了,请选择完整句子]')
+          const node = document.createTextNode(data ? data+' [仅供参考]' : '[翻译出错了]')
 
           new_div.appendChild(node)
       }
