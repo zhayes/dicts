@@ -1,3 +1,4 @@
+
 import json
 from os import name
 from typing import List,Optional
@@ -17,8 +18,6 @@ from analyze_longman import analyze_longman_page, longman_headers
 from youdao import translate
 
 models.Base.metadata.create_all(bind=engine)
-
-print(models.Base)
 
 app = FastAPI()
 

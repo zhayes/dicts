@@ -15,4 +15,6 @@ def translate(txt:str):
     if response.status_code==200:
         soup = BeautifulSoup(response.content, 'html.parser')
         txt = soup.find("p", class_="trans-content").get_text() if soup.find("p", class_="trans-content") else None
-        return txt
+        trans_txt = soup.find("span", class_="trans").get_text() if soup.find("span", class_="trans") else None
+        pos = soup.find("span", class_="pos").get_text() if soup.find("span", class_="pos") else None
+        return txt or  (trans_txt if '{} {}'.format(pos or '', trans_txt) else None)
