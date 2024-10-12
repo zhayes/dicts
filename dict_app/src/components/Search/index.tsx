@@ -66,7 +66,7 @@ const Search: Component<any> = () => {
   //搜索下拉
   const searchHandle = (v:string) => {
     if (!v.trim()) return;
-    const fetch_data = window.location.pathname.split("/")[1] === "dictionary" ? search_vocabulary : search_word;
+    const fetch_data = window.location.pathname.split("/")[1] === "dict" ? search_vocabulary : search_word;
 
     fetch_data(v.trim()).then(({ data }) => {
       const remoate_names = data.map((item: any) => item.name);
@@ -130,7 +130,7 @@ const Search: Component<any> = () => {
           if ((e.which || e.keyCode) === 13) {
             const value = target.value?.trim?.();
             const is_dict = location.pathname.split("/")[1]
-            navigator(`${is_dict==='dictionary'? '/dictionary/' : '/word/'}${encodeURIComponent(value)}`)
+            navigator(`${is_dict==='dict'? '/dict/' : '/word/'}${encodeURIComponent(value)}`)
 
             inputRef?.blur?.();
           }

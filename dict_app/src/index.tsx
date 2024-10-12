@@ -4,7 +4,7 @@ import {onMount} from 'solid-js';
 import '@/assets/css/style.scss';
 import { Router, Route } from "@solidjs/router";
 import {setup_translate} from "@/utils/util";
-
+import Layout from '@/components/Layout';
 import routes from '@/routes/index';
 
 const root = document.getElementById('root');
@@ -19,10 +19,16 @@ onMount(()=>{
   setup_translate();
 })
 
-render(() => <Router>
-  {
-    routes.map(route => (
-      <Route path={route.path} component={route.component} />
-    ))
-  }
-</Router>, root!);
+render(() => <Layout>
+  <Router>
+    {
+      routes.map(route => (
+        <Route path={route.path} component={route.component} />
+      ))
+    }
+  </Router>
+
+  <div class="text-center text-sm text-gray-500 p-4">
+    { new Date().getFullYear() <= 2024 ? 2024 : `2024 - ${new Date().getFullYear()}`}
+  </div>
+</Layout>, root!);

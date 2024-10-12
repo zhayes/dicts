@@ -37,7 +37,7 @@ const Vocabular: Component<{
         item?.examples?.map?.((item:any) => {
           const url_map:any = {};
           item?.a?.forEach?.(([w_1, w_2]:string[]) => {
-            url_map[w_1] = `/dictionary/${w_2}`
+            url_map[w_1] = `/dict/${w_2}`
           })
 
           return <div class="mb-10">
@@ -97,7 +97,7 @@ const Vocabular: Component<{
           item.corpus_list?.map(({ corpus_title, corpus_exas, a}:any) => {
             const url_map:any = {};
             a?.forEach?.(([w_1, w_2]:string[]) => {
-              url_map[w_1] = `/dictionary/${w_2}`
+              url_map[w_1] = `/dict/${w_2}`
             })
 
             return <div class='mt-6' use:aTags={{style: 'baseline', url_map, targets: a?.map(([w_1, w_2]:string[]) => w_1)}}>

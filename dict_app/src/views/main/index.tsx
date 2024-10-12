@@ -1,6 +1,6 @@
 import { type Component, createSignal, createEffect } from 'solid-js';
-import { reload, useParams } from '@solidjs/router';
-import Layout, { Container, Header } from '@/components/Layout';
+import { useParams } from '@solidjs/router';
+import { Container, Header } from '@/components/Layout';
 import Search from '@/components/Search';
 import WordCard from '@/components/WordCard';
 import Skeleton from '@/components/Skeleton';
@@ -42,8 +42,6 @@ const App: Component = () => {
 
         setData(JSON.parse(info))
         setStatusCode(null);
-
-        window.document.body.scrollIntoView({behavior: 'smooth'})
       } catch (err) {
         setData({})
         setLoading(false);
@@ -54,7 +52,7 @@ const App: Component = () => {
   })
 
   return (
-    <Layout>
+    <>
       <Header>
         <div class='max-w-screen-sm flex flex-1 m-auto sticky top-8'>
           <Search />
@@ -96,9 +94,7 @@ const App: Component = () => {
 
 
       </Container>
-
-      <div class="text-center text-sm text-gray-500 p-4">{ new Date().getFullYear() <= 2024 ? 2024 : `2024 - ${new Date().getFullYear()}`}</div>
-    </Layout>
+    </>
   );
 };
 

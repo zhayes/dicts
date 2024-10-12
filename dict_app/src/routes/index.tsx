@@ -11,11 +11,11 @@ export default[
         component: lazy(()=>import("@/views/main")),
     },
     {
-        path: "/dictionary",
+        path: "/dict",
         component: lazy(()=>import("@/views/dict")),
     },
     {
-        path: "/dictionary/:word",
+        path: "/dict/:word",
         component: lazy(()=>import("@/views/dict")),
     },
     {
