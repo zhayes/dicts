@@ -17,6 +17,13 @@ from analyze_word import analyze_word
 from analyze_longman import analyze_longman_page, longman_headers
 from youdao import translate
 from uvicorn import Config, Server
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--port", type=int, default=8000, help="运行端口")
+
+# 解析命令行参数
+args = parser.parse_args()
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -245,6 +252,6 @@ async def youdao_translate(word: str):
 
 
 if __name__ == "__main__":
-    config = Config(app=app, host="127.0.0.1", port=8000)
+    config = Config(app=app, host="127.0.0.1", port=args.port)
     server = Server(config)
     server.run()
