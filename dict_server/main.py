@@ -5,7 +5,7 @@ from typing import List,Optional
 from fastapi import Depends, FastAPI, Request, Form, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from pydantic import BaseModel
+from pydantic import BaseModel, Json
 from database import SessionLocal, engine
 from pprint import pprint
 import models
@@ -45,10 +45,14 @@ app.mount("/assets", StaticFiles(directory="../dict_app/dist/assets"), name="ass
 
 async def loop_redirect(response, word:str):
     async with httpx.AsyncClient() as client:
+
         if response.is_redirect:
             redirect_url = response.headers.get("Location")
-            new_response = await client.get("https://www.ldoceonline.com"+redirect_url, headers= longman_headers)
+            new_url = f"https://www.ldoceonline.com{redirect_url}"
+            if redirect_url.startswith("http"):
+                new_url =  redirect_url
 
+            new_response = await client.get(new_url, headers= longman_headers)
             return await loop_redirect(new_response, word)
         else:
             return response
@@ -57,7 +61,6 @@ async def loop_redirect(response, word:str):
 @app.middleware("http")
 async def redirect_to_static(request: Request, call_next):
     # 检查请求路径是否不以 /api/ 开头
-    print(request.url)
     if not request.url.path.startswith("/api/") and not request.url.path.startswith("/assets/"):
         with open("../dict_app/dist/index.html", "r", encoding="utf-8") as file:
             content = file.read()
@@ -126,7 +129,7 @@ def save_handle(data: WordData, db: Session = Depends(get_db)):
 def save_word(data: WordData, db: Session = Depends(get_db)):
     save_handle(data, db)
     return {
-        data: "保存成功"
+        "data": "保存成功"
     }
 
 
@@ -197,32 +200,38 @@ class DictData(BaseModel):
 @app.post("/api/update/dictionary/{word}")
 async def update_dictonary(word: str, db: Session = Depends(get_db)):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://www.ldoceonline.com/dictionary/" + word.strip(), headers = longman_headers)
+        response = await client.get("https://www.ldoceonline.com/search/english/direct/?q=" + word.strip(), headers = longman_headers)
         response = await loop_redirect(response, word)
 
+
         try:
-            word_text = analyze_longman_page(response)
+            word_data = analyze_longman_page(response)
+            current_word = word_data.get("word")
+            data = word_data.get("data")
 
-            if len(json.loads(word_text).get("dicts")):
-                dict_data = DictData(word=word, data=word_text)
 
-                existing_word = db.query(models.Word).filter(models.Word.name == word).first()
+
+            if len(json.loads(data).get("dicts")):
+                dict_data = DictData(word=current_word, data=data)
+
+                existing_word = db.query(models.Word).filter(models.Word.name == current_word).first()
+
+                print(existing_word)
 
                 if not existing_word:
-                    pass
-                    #raise HTTPException(status_code=400, detail="Word already exists")
-
-                    db_word = models.Word(name=word)
+                    db_word = models.Word(name=current_word)
                     db.add(db_word)
                     db.commit()
                     db.refresh(db_word)
 
+                existing_voc = db.query(models.Vocabulary).filter(models.Vocabulary.word == current_word).first()
 
-                db_vocabulary = models.Vocabulary(word=word, data= dict_data.data)
+                if not existing_voc:
+                    db_vocabulary = models.Vocabulary(word=current_word, data= dict_data.data)
 
-                db.add(db_vocabulary)
-                db.commit()
-                db.refresh(db_vocabulary)
+                    db.add(db_vocabulary)
+                    db.commit()
+                    db.refresh(db_vocabulary)
 
                 return dict_data
             else:

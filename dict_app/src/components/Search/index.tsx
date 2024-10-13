@@ -28,7 +28,7 @@ const search_classnames = `
   focus:bg-white
 `
 
-const Search: Component<any> = () => {
+const Search: Component<{ref?: any}> = (props) => {
   const [isFocus, setFocus] = createSignal(false);
   const [word_options, set_word_options] = createSignal<{name?:string, value?:string}[]>([]);
   const [word, setWord] = createSignal('');
@@ -102,6 +102,13 @@ const Search: Component<any> = () => {
 
     if (isFocus()) {
       setListener();
+    }
+  })
+
+
+  props.ref && props.ref({
+    setValue(v:string) {
+      setWord(v)
     }
   })
 

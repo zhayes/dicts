@@ -27,9 +27,13 @@ def analyze_longman_page(response):
     dicts_content = []
     word_family = []
     all_a = []
+    pagetitle = None
+
     if response.status_code == 200:
         # 解析网页内容
         soup = BeautifulSoup(response.content, 'html.parser')
+
+        pagetitle = soup.select_one(".pagetitle").get_text().strip() if soup.select_one(".pagetitle") else None
 
         #相近词汇
         if soup.select(".wordfams .crossRef"):
@@ -210,6 +214,6 @@ def analyze_longman_page(response):
                             next_sibling = next_sibling.find_next_sibling('span')
 
                     one_dict["examples"].append(example_item)
-                print("xxx", one_dict)
             dicts_content.append(one_dict)
-    return json.dumps({"word_family": word_family, "dicts": dicts_content}, ensure_ascii=False, indent=4)
+
+    return {"word": pagetitle, "data": json.dumps({"word_family": word_family, "dicts": dicts_content}, ensure_ascii=False, indent=4)}

@@ -15,16 +15,22 @@ export default (props: ComponentProps<any>):JSX.Element => {
   const [dict, setDict] = createSignal<Record<string, any>>({});
   const [loading, setLoading] = createSignal<Boolean>(true);
   const [statusCode, setStatusCode] = createSignal<400|500|null>(null);
+  let searchRef;
 
   const update_handle = async(word:string) => {
-    return await update_vocabulary(word.trim().split(" ").join("-")).then(({ data }) => {
+    return await update_vocabulary(word.trim().split(" ").join("-")).then((res) => {
+      const data = res.data;
+      const word = res.word;
+
       if (!data) {
         setDict({})
         setStatusCode(400)
         return;
       }
       const dict = JSON.parse(data);
+
       dict.word = word;
+      searchRef!.setValue(word);
       setDict(dict)
       setStatusCode(null)
     }).catch(() => {
@@ -66,7 +72,7 @@ export default (props: ComponentProps<any>):JSX.Element => {
   return <>
     <div class="p-6 bg sticky top-0 bg-red-900 z-10 shadow-lg">
       <div class='max-w-screen-sm flex flex-1 m-auto'>
-        <Search />
+        <Search ref={searchRef} />
       </div>
     </div>
     <Container>
