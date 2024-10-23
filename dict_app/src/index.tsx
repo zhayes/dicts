@@ -28,7 +28,8 @@ render(() => <Layout>
     }
   </Router>
 
-  <div class="text-center text-sm text-gray-500 p-4">
-    { new Date().getFullYear() <= 2024 ? 2024 : `2024 - ${new Date().getFullYear()}`}
+  <div class="text-center text-sm text-gray-500 p-4 leading-6">
+    <a href="https://beian.miit.gov.cn" target="_blank" class="text-blue-500">赣ICP备2024046423号</a>
+    <div>{ new Date().getFullYear() <= 2024 ? 2024 : `2024 - ${new Date().getFullYear()}`}</div>
   </div>
 </Layout>, root!);
