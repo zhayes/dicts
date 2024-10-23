@@ -117,7 +117,7 @@ const Search: Component<{ref?: any}> = (props) => {
       <input
         role="search"
         class={search_classnames}
-        placeholder={isFocus() ? '搜索' : 'Search'}
+        placeholder={isFocus() ? location.pathname.split("/")[1] === 'dict' ? '搜索英文词意' : '检索英文辞源' : 'Search'}
         value={word()}
         ref={inputRef}
         onFocus={() => {
@@ -136,8 +136,8 @@ const Search: Component<{ref?: any}> = (props) => {
 
           if ((e.which || e.keyCode) === 13) {
             const value = target.value?.trim?.();
-            const is_dict = location.pathname.split("/")[1]
-            navigator(`${is_dict==='dict'? '/dict/' : '/word/'}${encodeURIComponent(value)}`)
+            const is_dict = location.pathname.split("/")[1] === "dict";
+            navigator(`${is_dict ? '/dict/' : '/word/'}${encodeURIComponent(value)}`)
 
             inputRef?.blur?.();
           }
