@@ -49,7 +49,12 @@ const Vocabular: Component<{
               }
 
               <span class="text-green-500">{ item.is_countable }</span>
+              {/* <span>{ item.LEXUNIT }</span> */}
               <span class="text-lg font-extrabold" use:aTags={{ style: 'baseline', url_map, targets: item?.a?.map(([w_1, w_2]:string[]) => w_1)}}>{ item.definition }</span>
+              {
+                item.SYN ? <span class="font-semibold ml-2 items-center text-base italic"><span class='text-yellow-600'>SYN</span> <span class="text-orange-600  font-bold text-xl">{ item.SYN }</span></span> : null
+              }
+
             </div>
             {
               item.example_list.map((item:any) => {

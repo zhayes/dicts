@@ -126,6 +126,7 @@ def analyze_longman_page(response):
                         example_item["is_countable"] = GRAM
 
 
+
                     #释义
                     DEF = sense.select_one('.DEF').get_text() if sense.select_one('.DEF') else None
                     if DEF:
@@ -149,6 +150,15 @@ def analyze_longman_page(response):
 
                     #例句
                     # 获取类名DEF同层级的后面所有span标签
+
+                    # sub_scene = [];
+
+                    # if len(sense.select('.Subsense')):
+                    #     sub_scene
+
+
+
+
                     next_sibling = sense.select_one('.DEF')
                     example_item["example_list"] = []
                     if next_sibling:

@@ -85,7 +85,7 @@ export default (props: ComponentProps<any>):JSX.Element => {
       }
 
       {
-        statusCode() ? <div class="h-96 flex items-center justify-center">
+        statusCode() && !loading() ? <div class="h-96 flex items-center justify-center">
           <StatusMsg code={statusCode()!}/>
         </div> : null
       }
